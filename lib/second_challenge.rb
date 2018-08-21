@@ -8,6 +8,12 @@ def second_challenge
 
   #code your solution here!
 
-  
+array = []
+  groceries.each do |category, food|
+    food.each do |x|
+      array << x 
+    end
+  end
+  array 
 
 end
